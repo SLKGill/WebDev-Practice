@@ -1,7 +1,8 @@
 let btn = document.getElementById('btn');
 let output = document.getElementById("outputtext");
 
-let number = [Math.floor(Math.random()*100)];
+let number = Math.floor(Math.random()*100);
+//console.log(number);
 
 let attempts = document.getElementById('attempts').value = 0;
 
