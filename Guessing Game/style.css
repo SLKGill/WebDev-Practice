@@ -10,6 +10,7 @@ body{
   width: 750px;
   margin: auto;
   text-align: center;
+  color: white;
 }
 
 p{
@@ -19,6 +20,11 @@ p{
 
 #input{
   width: 100px;
+  margin: 25px auto;
+}
+
+#attempts{
+  width: 25px;
   margin: 25px auto;
 }
 
