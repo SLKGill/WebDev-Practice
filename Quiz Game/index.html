@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form name="quiz" id="quiz"> 
+
+      <!--Question 1-->
+      <div>
+        <p>1. What is the best programming language to learn in 2021?</p>
+        <!--the name=question1 shows that all these answers belong to the same question and thus only one option can be chosen--> 
+        <p><input type="radio" name="question1" value="HTML">A. HTML</p>
+        <p><input type="radio" name="question1" value="Python">B. Python</p>
+        <p><input type="radio" name="question1" value="Javascript">C. Javascript</p>
+        <p><input type="radio" name="question1" value="Swift">D. Swift</p> 
+      </div>
+
+      <!--Question 2-->
+      <div>
+        <p>2. What is the biggest country in the world?</p>
+        <!--the name=question1 shows that all these answers belong to the same question and thus only one option can be chosen--> 
+        <p><input type="radio" name="question2" value="Russia">A. Russia</p>
+        <p><input type="radio" name="question2" value="USA">B. USA</p>
+        <p><input type="radio" name="question2" value="China">C. China</p>
+        <p><input type="radio" name="question2" value="India">D. India</p>
+      </div>
+
+      <!--Question 3-->
+      <div>
+        <p>3. What is the capital of Canada?</p>
+        <!--the name=question1 shows that all these answers belong to the same question and thus only one option can be chosen--> 
+        <p><input type="radio" name="question3" value="Toronto">A. Toronto</p>
+        <p><input type="radio" name="question3" value="Ottawa">B. Ottawa</p>
+        <p><input type="radio" name="question3" value="Vancouver">C. Vancouver</p>
+        <p><input type="radio" name="question3" value="Windsor">D. Windsor</p>  
+      </div>
+
+
+      <!--Question 4-->
+      <div>
+        <p>4. What is 2+2?</p>
+        <!--the name=question1 shows that all these answers belong to the same question and thus only one option can be chosen--> 
+        <p><input type="radio" name="question4" value="5">A. 5</p>
+        <p><input type="radio" name="question4" value="2">B. 2</p>
+        <p><input type="radio" name="question4" value="6">C. 6</p>
+        <p><input type="radio" name="question4" value="4">D. 4</p>  
+      </div>
+
+
+      <input type="button" name="btn" id="btn" value="Submit Quiz" onclick="check()">
+      <!--check() is written in javascript-->
+
+    </form>
+
+    <p id="result"></p>
+    <p id="resultq1" class="result"></p>
+    <p id="resultq2" class="result"></p>
+    <p id="resultq3" class="result"></p>
+    <p id="resultq4" class="result"></p>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
